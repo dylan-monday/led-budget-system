@@ -13,7 +13,15 @@ could take it over using this file alone.
 ## Accounts and ownership
 
 Which accounts hold what, who owns them, and how ownership transfers.
-Nothing here ties to Monday + Partners.
+
+During the build everything lives in Monday + Partners accounts, each as its
+own project with nothing shared with other work. At handover each one moves to
+an account LED owns. Each service gets a handover entry below the moment it is
+set up: where it lives, how to move it, and what LED needs ready first.
+
+| Service | Lives in | How it moves |
+| --- | --- | --- |
+| GitHub | M+P account, repo led-budget-system | Repository transfer. History, issues and settings move with it. |
 
 ## Environment
 

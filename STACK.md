@@ -69,10 +69,17 @@ reworking anything above it. If a security review asks, that is the answer.
 
 ## Hosting
 
-**Vercel, in an organization created for LED rather than inside the M+P team.**
-Same for the Supabase project and the GitHub repo. Born in their own accounts,
-with M+P as a member, so handover is a change of ownership rather than a
-migration.
+**Vercel, Supabase and GitHub, built inside the existing M+P accounts.**
+That is what the approved proposal describes, and it keeps setup friction at
+zero during the build.
+
+The rule that protects handover: every service must support moving a project
+to another owner with its data and history intact. GitHub, Vercel and Supabase
+all do. Anything that cannot move cleanly does not go in the stack.
+
+Each project gets its own project in each service, never shared with other M+P
+work, and its own environment variables, so it lifts out whole. At handover it
+moves to accounts LED owns, following the checklist in RUNBOOK.md.
 
 ## Interface
 
@@ -142,3 +149,7 @@ expense, flip promised to paid, export a period.
   access limited to permitted users, expiring download links, full access audit.
 + 2026-11-13. No separate read model. Figures are calculated from the ledger so
   there is one source of truth. Revisit only if it proves slow.
++ 2026-11-13. Hosting accounts: built in M+P accounts, not LED-owned ones.
+  Creating LED accounts up front added a login and an access step to every
+  service for no gain during the build. Transfer at handover instead, and only
+  use services that support a clean transfer.
