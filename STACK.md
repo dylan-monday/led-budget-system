@@ -77,6 +77,11 @@ The rule that protects handover: every service must support moving a project
 to another owner with its data and history intact. GitHub, Vercel and Supabase
 all do. Anything that cannot move cleanly does not go in the stack.
 
+No separate Vercel team or Supabase organization: the project sits in the
+existing Monday and Partners team and Monday + Partners organization, which
+adds no new seat or plan cost. Both services move a project to another owner
+whole.
+
 Each project gets its own project in each service, never shared with other M+P
 work, and its own environment variables, so it lifts out whole. At handover it
 moves to accounts LED owns, following the checklist in RUNBOOK.md.
@@ -153,3 +158,5 @@ expense, flip promised to paid, export a period.
   Creating LED accounts up front added a login and an access step to every
   service for no gain during the build. Transfer at handover instead, and only
   use services that support a clean transfer.
++ 2026-11-13. No dedicated Vercel team or Supabase organization for LED. Cheapest
+  option, no new logins, and both services transfer a single project cleanly.
