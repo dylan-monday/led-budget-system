@@ -21,7 +21,9 @@ set up: where it lives, how to move it, and what LED needs ready first.
 
 | Service | Lives in | How it moves |
 | --- | --- | --- |
-| GitHub | M+P account, repo led-budget-system | Repository transfer. History, issues and settings move with it. |
+| GitHub | dylan-monday/led-budget-system (private) | Repository transfer. History, issues and settings move with it. |
+| Vercel | Monday and Partners team (not yet created) | Project transfer to a team LED owns. |
+| Supabase | Monday + Partners organization (not yet created) | Project transfer to an organization LED owns. |
 
 ## Environment
 
